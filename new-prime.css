@@ -1,0 +1,137 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+
+     background-color: #041838;
+     scroll-behavior: smooth;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-left{
+
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-Right{
+
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Subscription,
+.gird{
+
+    filter: invert(1);
+    height: 21px;
+    width: 21px;
+}
+
+ul li{
+
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.box{
+
+    border: 2px solid rgb(245, 241, 241);
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    
+}
+
+nav a:hover{
+
+    background-color:white;
+    color: black;
+    transition: 0.3s;
+    border-radius: 2px;
+   
+}
+
+.logo{
+
+    width: 150px;
+}
+
+.user{
+
+    width: 35px;
+    height: 35px;
+   
+}
+
+.join{
+
+    background-color: #1a98ff;
+    height: 45px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.join:hover{
+
+    background-color: #1ba0ff;
+    scale: 1.1;
+    box-shadow:  #40aefd 0px 50px 100px -20px,
+    rgb(255, 255, 255) 0px 30px 60px -30px;;
+}
+
+.dropdown{
+
+    position: relative;
+}
+
+.language{
+
+     display: none;
+    position: absolute;
+    column-count: 4;
+    column-gap: 40px;
+    top: 50px;
+    padding: 15px;
+    right: -180px;
+    backdrop-filter: blur(10px);
+   
+}
+
+.dropdown:hover .language{
+
+    display: block;
+}
+
+
